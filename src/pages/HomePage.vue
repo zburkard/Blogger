@@ -1,6 +1,9 @@
 <template>
   <div class="container fluid">
-    <section v-for="b in blogs" class="row">
+    <section class="row">
+      <h3 class="text-center">All Blogs</h3>
+    </section>
+    <section v-for="b in blogs" class="row justify-content-center">
       <BlogCard :blog="b" />
     </section>
   </div>
