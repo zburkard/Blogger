@@ -7,5 +7,9 @@ export const AppState = reactive({
   account: {},
 
   /** @type {import('./models/Blog.js').Blog[]} */
-  blogs: []
+  blogs: [],
+
+  activeBlog: null,
+  /** @type {import('./models/Account').Account} */
+  activeBlogger: null
 })
